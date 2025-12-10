@@ -1720,6 +1720,7 @@ wheels = [
 name = "newton"
 source = { editable = "." }
 dependencies = [
+    { name = "rerun-sdk" },
     { name = "warp-lang" },
 ]
 
@@ -1904,6 +1905,7 @@ requires-dist = [
     { name = "pyyaml", marker = "extra == 'examples'", specifier = ">=6.0.2" },
     { name = "pyyaml", marker = "extra == 'notebook'", specifier = ">=6.0.2" },
     { name = "pyyaml", marker = "extra == 'torch-cu12'", specifier = ">=6.0.2" },
+    { name = "rerun-sdk", specifier = ">=0.27.1" },
     { name = "rerun-sdk", extras = ["notebook"], marker = "extra == 'notebook'", specifier = ">=0.27.1" },
     { name = "scipy", marker = "extra == 'dev'" },
     { name = "scipy", marker = "extra == 'docs'" },
